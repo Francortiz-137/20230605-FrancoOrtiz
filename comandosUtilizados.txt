@@ -1,0 +1,22 @@
+  466  mkdir 20230605-FrancoOrtiz
+  467  cd 20230605-FrancoOrtiz
+  468  git init
+  469  git remote add origin https://github.com/Francortiz-137/20230605-FrancoOrtiz.git
+  470  touch comandos.txt main.js index.html
+  471  git add .
+  472  git commit -m "commit 01 de FrancoOrtiz"
+  473  git push origin main
+  474  git checkout -b feature01
+  475  mkdir Terminal Hardware
+  476  touch Terminal/resumen.txt Hardware/resumen.txt
+  477  add .
+  478  git add .
+  479  git commit -m "commit 02 de FrancoOrtiz"
+  480  git push origin feature01
+  481  git checkout -b feature02
+  482  git add .
+  483  git commit -m "commit 03 de FrancoOrtiz"
+  484  git push origin feature02
+  485  git checkout main
+  486  mv comandos.txt comandosUtilizados.txt
+  487  history
